@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>Johdatus verkkojulkaisemiseen</title>
+	</head>
+	<body>
+		<script src="menu.js"></script>
+		<center>
+			<button onclick="show('kurssit')">Näytä kurssit</button>
+			<button onclick="show('ohjeet')">Näytä ohjeet</button>
+		</center>
+		<div class="flex-container">
+			<div class="flex-item">
+				<h1 id="otsikko" class="otsikot">Tervetuloa kurssille</h1>
+				<h2 class="otsikot">Mikä on johdatus verkkojulkaisemiseen?</h2>
+				<p>Kurssilla opitaan <b>lihavointi</b>, <i>kursivointi</i>, <br>
+				rivinvaihto, sekä <u>alleviivaus</u> ja <span class="punainen">muuta</span>
+				</p>
+			</div>
+			<div class="flex-item">
+				<a href="https://moodle.uwasa.fi/user/profile.php?id=22215" target="_blank">Ota yhteyttä</a><br>
+				<img src="img/profile picture.jpg" height="260px">
+			</div>
+			<div class="flex-table" id="kurssit">
+				<table>
+					<tr>
+						<td>Syksy</td>
+						<td>Kevät</td>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li>Johdatus verkkojulkaisemiseen</li>
+								<li>Pelit ja pelikultturit</li>
+								<li>Viestinnän palvelumuotoilu</li>
+								<li>Digitaaliset työkalut</li>
+							</ul>
+						</td>
+						<td>
+							<ul>
+								<li>Digitaalisen markkinointiviestinnän projekti</li>
+								<li>Johdatus verkkojulkaisemiseen</li>
+								<li>Digitaaliset työkalut</li>
+								<li>Pelisuunnittelu</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="flex-item" id="ohjeet">
+				<h2 id="tarvittavat">Tarvittavat digitaidot ennen kursseille osallistumista</h2>
+				<ol>
+					<li>Tiedostojen avaaminen ja tallentaminen</li>
+					<li>Tiedostojen pakkaaminen ja zip-paketin purkaminen</li>
+					<li>Tiedonhakutaidot</li>
+				</ol>
+			</div>
+		</div>
+	</body>
+</html>
